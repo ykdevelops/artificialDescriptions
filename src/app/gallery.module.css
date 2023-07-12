@@ -28,6 +28,10 @@
   padding-bottom: 1rem;
   width: 100%;
 }
+.rightHalf a {
+  text-decoration: underline;
+  color: blue;
+}
 .soundcloud {
   margin-top: 2rem;
   width: 90%;

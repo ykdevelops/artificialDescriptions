@@ -29,16 +29,25 @@ export default function Gallery() {
               intricate, dramatic use of shadows &quot;
             </p>
             <p>
-              &quot; the color me iz crazy lp kwam, in the style of tristan
-              eaton, colorful gradients, detailed skies, dramatic use of
-              shadows, hyper-realistic representation, smokey background,
-              colorful portraiture &quot;
+              &quot; the color me iz crazy lp kwam, in the style of{" "}
+              <a href="https://goo.gl/search?artist%20tristan%20eaton">
+                tristan eaton
+              </a>
+              , colorful gradients, detailed skies, dramatic use of shadows,
+              hyper-realistic representation, smokey background, colorful
+              portraiture &quot;
             </p>
             <p>
-              &quot; black eyed peas album cover, in the style of sam spratt,
-              colorful abstract landscapes, energy-filled illustrations, thomas
-              blackshear, colorful explosions, ethereal cloudscapes, saturated
-              color field &quot;
+              &quot; black eyed peas album cover, in the style of{" "}
+              <a href="https://goo.gl/search?artist%20sam%20spratt">
+                sam spratt
+              </a>
+              , colorful abstract landscapes, energy-filled illustrations,{" "}
+              <a href="https://goo.gl/search?artist%20thomas%20blackshear">
+                thomas blackshear
+              </a>
+              , colorful explosions, ethereal cloudscapes, saturated color field
+              &quot;
             </p>
           </div>
         </div>
