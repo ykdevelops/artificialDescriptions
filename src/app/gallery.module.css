@@ -1,0 +1,35 @@
+.artSection {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.topRow {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 900px;
+}
+.leftHalf {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightHalf {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.rightHalf p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+.soundcloud {
+  margin-top: 2rem;
+  width: 90%;
+  max-width: 900px;
+}

@@ -1,9 +1,10 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-
+import Gallery from "./components/gallery"
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Gallery />
       <div className={styles.description}>
         <p>
           Welcome to our AI Art Expo, a fascinating blend of AI-generated
