@@ -15,7 +15,7 @@
 .leftHalf {
   width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .rightHalf {
@@ -27,6 +27,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 100%;
+  font-style: italic;
 }
 .rightHalf a {
   text-decoration: underline;
@@ -36,4 +37,44 @@
   margin-top: 2rem;
   width: 90%;
   max-width: 900px;
+}
+
+.preview-link {
+  position: relative;
+  display: inline-block;
+}
+
+.preview-link::before {
+  content: attr(data-preview);
+  position: fixed;
+  top: calc(100% + 10px); /* Adjust the distance from the link */
+  left: 0;
+  width: 300px; /* Adjust the width of the preview window */
+  height: 200px; /* Adjust the height of the preview window */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s;
+}
+
+.preview-link:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+
+.preview-link::after {
+  content: "";
+  position: absolute;
+  top: calc(100% - 8px); /* Adjust the position of the arrow */
+  left: 50%;
+  margin-left: -8px; /* Adjust the position of the arrow */
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+  z-index: 9999;
+  pointer-events: none;
 }
