@@ -26,6 +26,7 @@ const ArtworkTemplate: React.FC<ArtworkTemplateProps> = ({
 
         <div className={galleryStyles.rightHalf}>
           <div dangerouslySetInnerHTML={createMarkup(description)} />
+          <div>described by ....</div>
         </div>
       </div>
       <div className={galleryStyles.soundcloud}>

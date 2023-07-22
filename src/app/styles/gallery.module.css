@@ -1,0 +1,33 @@
+.galleryPage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.topRow {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.backIcon {
+  flex: 1;
+}
+.title {
+  flex: 8;
+  display: flex;
+  justify-content: center;
+}
+.sortIconsRow {
+  flex: 1;
+}
+.artworkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
