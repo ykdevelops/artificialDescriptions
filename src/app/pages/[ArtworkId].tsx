@@ -7,7 +7,6 @@ export default function artwork() {
       <div className={styles.exitRow}>
         <div>x</div>
       </div>
-      <ArtworkTemplate />
     </div>
   );
 }
